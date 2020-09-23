@@ -54,7 +54,7 @@ function start() {
       chalk.white(`
       Do you know "${vocabulary}"? (y/n)
 
-      https://www.google.com/search?q=${vocabulary}+meaning
+      https://www.google.com/search?q=${vocabulary.replace(/ /g,'%20')}+meaning
     `)
     );
 
